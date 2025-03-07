@@ -4,7 +4,6 @@ const aiRoutes = require('./routes/ai.routes');
 const cors = require('cors');
 const path = require('path');
 
-
 app.use(express.json());    
 app.use(cors());
 
