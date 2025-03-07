@@ -7,9 +7,7 @@ const path = require('path');
 app.use(express.json());    
 app.use(cors());
 
-app.get('/', (req, res) => {    
-    res.send('Hello World!');  
-})
+
 
 app.use('/ai', aiRoutes);
 
